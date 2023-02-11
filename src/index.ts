@@ -1,2 +1,9 @@
+import repl, { ReplOptions } from 'node:repl'
 
-console.log('hello world!');
+
+const options: ReplOptions = {
+  terminal: true,
+}
+
+repl.start(options)
+
