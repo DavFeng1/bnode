@@ -2,10 +2,10 @@
   "name": "bnode",
   "version": "1.0.0",
   "description": "Fancy interpretor for node",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "test",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node --esm src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/DavFeng1/bnode#readme",
   "dependencies": {
     "ansi-align": "^3.0.1",
+    "boxen": "^7.0.1",
     "chalk": "^5.2.0",
     "ts-node": "^10.9.1"
   },

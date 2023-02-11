@@ -1,9 +1,12 @@
-import repl, { ReplOptions } from 'node:repl'
+import repl from 'node:repl'
+import boxen, { Options as BoxenOptions } from 'boxen'
 
-
-const options: ReplOptions = {
-  terminal: true,
+const options: BoxenOptions = {
+  padding: 1,
+  borderColor: 'blueBright'
 }
 
-repl.start(options)
+const box = boxen('hello world', options)
+
+console.log(box)
 
