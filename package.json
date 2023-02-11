@@ -1,0 +1,23 @@
+{
+  "name": "bnode",
+  "version": "1.0.0",
+  "description": "Fancy interpretor for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavFeng1/bnode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavFeng1/bnode/issues"
+  },
+  "homepage": "https://github.com/DavFeng1/bnode#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
